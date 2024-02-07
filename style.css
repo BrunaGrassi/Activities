@@ -48,12 +48,13 @@ nav a {
     border-bottom: solid 2px #fff;
     background-color: #000;
     opacity: 70%;
-    width: 38%;
+    width: 300px;
     padding: 18px 10px;
     font-size: 15px;
     font-weight: 600;
     margin-top: 70px;
     min-width: 400px;
+    max-width: 500px;
 
 }
 
@@ -85,8 +86,10 @@ article {
 h1 {
     font-size: 60px;
     min-width: 740px;
+    max-width: 840px;
     color: #fff;
     text-shadow: 2px 2px 1px #000;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -108,4 +111,5 @@ footer {
 footer p {
     text-shadow: 2px 2px 1px #000;
     font-size: 13px;
+    letter-spacing: 2px;
 }
